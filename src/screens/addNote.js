@@ -32,7 +32,6 @@ const AddNote = ({ setCurrentPage, addNote }) => {
           color="white"
           text="Simpan"
           width="100%"
-          // Jalankan function addNote dan arahkan kembali layar ke Home
           onPress={() => {
             addNote(title, desc);
             setCurrentPage("home");
